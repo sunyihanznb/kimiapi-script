@@ -7,5 +7,5 @@
 ## 使用gitclone
 在终端中输入
 '''bash
-gitclone
+gitclone https://github.com/sunyihanznb/kimiapi-script.git
 '''
