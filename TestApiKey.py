@@ -8,7 +8,10 @@ def Creat_File():
     key.write(api_key)
     key.close
 
+
 def Read_File():
     file_path = "key.txt"
     key = open(file_path,'r')
-    return key.read()
+    api = key.read()
+    key.close
+    return api
